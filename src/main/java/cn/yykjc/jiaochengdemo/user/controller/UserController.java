@@ -41,7 +41,7 @@ public class UserController {
     @ResponseBody
     public String save(@RequestBody UserEntity userEntity) {
 
-        System.out.println("用户注册 - " + userEntity.toString());
+        System.out.println("用户注册  nn- " + userEntity.toString());
         userService.save(userEntity);
         return "success";
     }

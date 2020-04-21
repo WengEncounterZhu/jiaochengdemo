@@ -17,7 +17,7 @@
 
     <insert id="save" parameterType="cn.yykjc.jiaochengdemo.user.entity.UserEntity">
 
-        INSERT INTO `jiaochengdemo`.`user` (
+        INSERT INTO `user` (
             `id`,
             `username`,
             `password`,
